@@ -78,6 +78,20 @@ ignore = [
     "js_template/**/*",
 ]
 
+[tool.coverage.run]
+branch = true
+omit = [
+    "js_template/tests/integration/",
+]
+[tool.coverage.report]
+exclude_also = [
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "@(abc\\.)?abstractmethod",
+]
+ignore_errors = true
+fail_under = 50
+
 [tool.hatch.build]
 artifacts = [
     "js_template/extension",
@@ -132,6 +146,7 @@ build_cmd = "build"
 npm = "pnpm"
 
 [tool.pytest.ini_options]
+addopts = ["-vvv", "--junitxml=junit.xml"]
 asyncio_mode = "strict"
 testpaths = "js_template/tests"
 
