@@ -1,8 +1,8 @@
 {
-  "name": "js-template",
+  "name": "python-template-js",
   "version": "0.1.10",
   "description": "A JavaScript-Python project template",
-  "repository": "git@github.com:python-project-templates/js-template.git",
+  "repository": "git@github.com:python-project-templates/python-template-js.git",
   "author": "Python Project Template Authors <3105306+timkpaine@users.noreply.github.com>",
   "license": "Apache-2.0",
   "private": true,
@@ -28,7 +28,7 @@
   "scripts": {
     "build:debug": "node build.mjs --debug",
     "build": "node build.mjs",
-    "clean": "rm -rf dist playwright-report ../js_template/extension",
+    "clean": "rm -rf dist playwright-report ../python_template_js/extension",
     "dev": "npm-run-all -p start watch",
     "lint": "prettier --check \"src/**/*\" \"tests/**/*\" \"*.mjs\" \"*.json\"",
     "fix": "prettier  --write \"src/**/*\" \"tests/**/*\" \"*.mjs\" \"*.json\"",
@@ -41,11 +41,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@finos/perspective-esbuild-plugin": "^3.1.0",
+    "@finos/perspective-esbuild-plugin": "^2.10.1",
     "@playwright/test": "^1.47.0",
     "@prospective.co/procss": "^0.1.16",
     "cpy": "^11.1.0",
-    "esbuild": "^0.24.0",
+    "esbuild": "^0.23.1",
     "esbuild-plugin-less": "^1.3.9",
     "http-server": "^14.1.1",
     "nodemon": "^3.1.4",
