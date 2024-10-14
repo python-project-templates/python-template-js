@@ -80,8 +80,8 @@ async function copy_img() {
 }
 
 async function copy_to_python() {
-  fs.mkdirSync("../js_template/extension", { recursive: true });
-  cpy("dist/**/*", "../js_template/extension");
+  fs.mkdirSync("../python_template_js/extension", { recursive: true });
+  cpy("dist/**/*", "../python_template_js/extension");
 }
 
 async function build_all() {

@@ -134,7 +134,7 @@ _template/labextension
 # JS
 js/node_modules
 js/dist
-js_template/extension
+python_template_js/extension
 
 # Jupyter
 .ipynb_checkpoints

@@ -1,12 +1,12 @@
-# js template
+# python template js
 
 A JavaScript-Python project template
 
-[![Build Status](https://github.com/python-project-templates/js-template/actions/workflows/build.yml/badge.svg?branch=main&event=push)](https://github.com/python-project-templates/js-template/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/python-project-templates/js-template/branch/main/graph/badge.svg)](https://codecov.io/gh/python-project-templates/js-template)
-[![License](https://img.shields.io/github/license/python-project-templates/js-template)](https://github.com/python-project-templates/js-template)
-[![PyPI](https://img.shields.io/pypi/v/js-template.svg)](https://pypi.python.org/pypi/js-template)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/python-project-templates/js-template/main?urlpath=lab)
+[![Build Status](https://github.com/python-project-templates/python-template-js/actions/workflows/build.yml/badge.svg?branch=main&event=push)](https://github.com/python-project-templates/python-template-js/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/python-project-templates/python-template-js/branch/main/graph/badge.svg)](https://codecov.io/gh/python-project-templates/python-template-js)
+[![License](https://img.shields.io/github/license/python-project-templates/python-template-js)](https://github.com/python-project-templates/python-template-js)
+[![PyPI](https://img.shields.io/pypi/v/python-template-js.svg)](https://pypi.python.org/pypi/python-template-js)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/python-project-templates/python-template-js/main?urlpath=lab)
 
 ## Overview
 
