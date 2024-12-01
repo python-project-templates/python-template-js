@@ -20,7 +20,6 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
@@ -75,7 +74,9 @@ ignore = [
     "js/pnpm-lock.yaml",
     "Makefile",
     "setup.py",
-    "python_template_js/**/*",
+    "python_template_js/extension/**/*",
+    "docs/**/*",
+    "js/dist/**/*",
 ]
 
 [tool.coverage.run]
@@ -101,32 +102,14 @@ artifacts = [
 src = "/"
 
 [tool.hatch.build.targets.sdist]
-include = [
-    "/python_template_js",
-    "/js",
-    "LICENSE",
-    "README.md",
-]
+packages = ["python_template_js", "js"]
 exclude = [
-    ".copier-answers.yml",
-    "/.github",
-    "/.gitattributes",
-    "/.gitignore",
+    "/js/dist",
     "/js/node_modules",
 ]
 
 [tool.hatch.build.targets.wheel]
-include = [
-    "/python_template_js",
-]
-exclude = [
-    ".copier-answers.yml",
-    "/.github",
-    "/.gitattributes",
-    "/.gitignore",
-    "/js/node_modules",
-    "/pyproject.toml",
-]
+packages = ["python_template_js"]
 
 [tool.hatch.build.hooks.jupyter-builder]
 build-function = "hatch_jupyter_builder.npm_builder"
