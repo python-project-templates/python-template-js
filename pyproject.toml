@@ -8,7 +8,7 @@ build-backend="hatchling.build"
 [project]
 name = "python-template-js"
 authors = [{name = "Python Project Template Authors", email = "3105306+timkpaine@users.noreply.github.com"}]
-description="A JavaScript-Python project template"
+description = "A JavaScript-Python project template"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 version = "0.1.0"
