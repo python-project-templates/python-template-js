@@ -74,7 +74,6 @@ ignore = [
     ".copier-answers.yml",
     "js/pnpm-lock.yaml",
     "Makefile",
-    "setup.py",
     "python_template_js/extension/**/*",
     "docs/**/*",
     "js/dist/**/*",
