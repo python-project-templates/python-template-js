@@ -6,7 +6,6 @@ A JavaScript-Python project template
 [![codecov](https://codecov.io/gh/python-project-templates/python-template-js/branch/main/graph/badge.svg)](https://codecov.io/gh/python-project-templates/python-template-js)
 [![License](https://img.shields.io/github/license/python-project-templates/python-template-js)](https://github.com/python-project-templates/python-template-js)
 [![PyPI](https://img.shields.io/pypi/v/python-template-js.svg)](https://pypi.python.org/pypi/python-template-js)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/python-project-templates/python-template-js/main?urlpath=lab)
 
 ## Overview
 
