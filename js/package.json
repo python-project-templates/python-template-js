@@ -1,6 +1,6 @@
 {
   "name": "python-template-js",
-  "version": "0.1.10",
+  "version": "0.1.0",
   "description": "A JavaScript-Python project template",
   "repository": "git@github.com:python-project-templates/python-template-js.git",
   "author": "Python Project Template Authors <3105306+timkpaine@users.noreply.github.com>",
@@ -45,10 +45,10 @@
     "@playwright/test": "^1.47.0",
     "@prospective.co/procss": "^0.1.16",
     "cpy": "^11.1.0",
-    "esbuild": "^0.25.0",
-    "esbuild-plugin-less": "^1.3.9",
+    "esbuild": "^0.25.3",
+    "esbuild-plugin-less": "^1.3.21",
     "http-server": "^14.1.1",
-    "nodemon": "^3.1.4",
+    "nodemon": "^3.1.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3",
     "typescript": "^5.6.2"
