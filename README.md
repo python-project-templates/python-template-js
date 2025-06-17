@@ -2,7 +2,7 @@
 
 A JavaScript-Python project template
 
-[![Build Status](https://github.com/python-project-templates/python-template-js/actions/workflows/build.yml/badge.svg?branch=main&event=push)](https://github.com/python-project-templates/python-template-js/actions/workflows/build.yml)
+[![Build Status](https://github.com/python-project-templates/python-template-js/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/python-project-templates/python-template-js/actions/workflows/build.yaml)
 [![codecov](https://codecov.io/gh/python-project-templates/python-template-js/branch/main/graph/badge.svg)](https://codecov.io/gh/python-project-templates/python-template-js)
 [![License](https://img.shields.io/github/license/python-project-templates/python-template-js)](https://github.com/python-project-templates/python-template-js)
 [![PyPI](https://img.shields.io/pypi/v/python-template-js.svg)](https://pypi.python.org/pypi/python-template-js)
