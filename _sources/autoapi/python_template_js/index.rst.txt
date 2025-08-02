@@ -1,0 +1,21 @@
+python_template_js
+==================
+
+.. py:module:: python_template_js
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   python_template_js.__version__
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   :value: '0.1.0'
+
+
